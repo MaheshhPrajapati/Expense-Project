@@ -83,6 +83,7 @@ export default function App() {
 
   return (
     <div className="App">
+    <h2>Please tilt for mobile devices</h2>
       <ExpenseForm onSaveExpenseData={onSaveExpenseHandler} />
       <ExpensesChart expenses={filteredArray} />
 
